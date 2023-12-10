@@ -1,0 +1,72 @@
+.navbar{
+  background-color: #F0141E;
+  color: white;
+}
+
+.result-main h2 {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.result-main {
+  padding-top: 11rem;
+  background-color: white;
+}
+
+
+.search-inner {
+  width: 300px !important;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.search-main {
+  background: #202020;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.hero-image{
+  height: 180px;
+}
+
+#superhero{
+  transition: all 0.3s ease;
+}
+
+#superhero:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.allDetails {
+  text-align: left;
+}
+
+#detail{
+  text-align: center;
+}
+
+/* Star Icon CSS */
+.favorite-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.favorite {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.favorite.clicked {
+  background-color: gold;
+}
